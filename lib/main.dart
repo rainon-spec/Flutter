@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter/cupertino.dart';
+
+import 'package:flutter/widgets.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -118,5 +121,26 @@ class _MyHomePageState extends State<MyHomePage> {
         child: const Icon(Icons.add),
       ),
     );
+  }
+}
+class MyWidget extends StatelessWidget {
+  const new({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+class [MyWidget] extends StatefulWidget {
+  const new({super.key});
+
+  @override
+  State<[MyWidget]> createState() => _[MyWidget]State();
+}
+
+class _[MyWidget]State extends State<[MyWidget]> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
